@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>404</title>
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Shadowairing/404_Custom_mp4_0@1.1/img/LOGO.png" />
+<link href="https://cdn.jsdelivr.net/gh/Shadowairing/404_Custom_mp4_0@1.1/css/Location.css" type="text/css" rel="stylesheet">
+ <style>
+#jb{animation:change 10s infinite;font-weight:800; }
+@keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}}
+h3{
+		font-size:200px;
+		color:#eee;
+		text-align:center;
+		padding-top:130px;
+		font-weight:normal;
+	}
+</style>
+</head>
+
+<body class="body--ready" data-pinterest-extension-installed="cr1.39.1">
+<canvas height="100%" width="100%" style="position: fixed; top: 0px; left: 0px; opacity: 1;"  id="canvas" class="canvas"></canvas>
+<div id="willerce">
+	<div>
+		<a href="/"><img src="https://cdn.jsdelivr.net/gh/Shadowairing/404_Custom_mp4_0@1.1/img/LOGO.png" id="logo" title="Back to the Tai Chi"/></a>
+		<a href="https://en.wikipedia.org/wiki/HTTP_404" target="_blank" title="What is 404 Not Found"/><h3>404</h3></a>
+	</div>	
+</div>
+<div id="shiping">
+	<video id="bfq">
+		<source src="https://cdn.jsdelivr.net/gh/Shadowairing/404_Custom_mp4_0@1.1/img/1.mp4" type="video/mp4" id="mp4_sp">
+	</video>
+</div>
+
+<script>
+	var videobt=document.getElementById("bfq");
+		videobt.onclick=function(){
+    if(videobt.paused){
+        videobt.play();
+		}
+	else{
+        videobt.pause();
+		}
+	}
+</script>
+<div id="press"></div>
+
+<span id="jb" class="copyright"></span>
+<script type="text/javascript">
+    function jb(){
+        window.setTimeout("jb()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth()+1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+        var t1 = Date.UTC(2018,08,01,23,47,05); //北京时间2016-12-1 00:00:00
+        var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+        var diff = t2-t1;
+        var diffYears = Math.floor(diff/years);
+        var diffDays = Math.floor((diff/days)-diffYears*365);
+        var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+        var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+        var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+		var year=today.getFullYear();
+        document.getElementById("jb").innerHTML="Copyright &copy;"+year+" Tai Chi"+" Has Been Safely Running For "+diffYears+" Yrs "+diffDays+" Days "+diffHours+" Hrs "+diffMinutes+" Mins "+diffSeconds+" Secs.";
+    }
+    jb();
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/Shadowairing/404_Custom_mp4_0@1.1/js/Seffects.js" type="text/javascript"></script>
+</body>
+</html>
